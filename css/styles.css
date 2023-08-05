@@ -420,14 +420,15 @@ ul {
 .footer-input-wrap {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 }
 .footer-label {
-  color: currentColor;
+  color: var(--white);
   font-family: inherit;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .footer-input {
   color: currentColor;
