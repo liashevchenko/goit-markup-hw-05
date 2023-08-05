@@ -419,7 +419,6 @@ ul {
 }
 .footer-input-wrap {
   display: flex;
-  flex-direction: column;
   gap: 24px;
 }
 .footer-label {
