@@ -465,7 +465,7 @@ ul {
 }
 .footer-form-btn:hover,
 .footer-form-btn:focus {
-  background-color: var(--ocean);
+  background-color: var(--green);
 }
 .subcsribe-icon {
   fill: var(--white);
