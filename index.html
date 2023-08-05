@@ -412,9 +412,9 @@
         </div>
 
         <div class="footer-form-wraper">
-          <p class="footer-label">Subscribe</p>
+          <p class="footer-form-caption">Subscribe</p>
           <form class="footer-form">
-            <label for="footer-email">
+            <label for="footer-email" class="footer-label">
               <input
                 class="footer-input"
                 type="email"
@@ -426,11 +426,9 @@
 
             <button type="submit" class="footer-form-btn">
               Subscribe
-              <span class="subcsribe-icon-span">
-                <svg class="subcsribe-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-paper-airplane"></use>
-                </svg>
-              </span>
+              <svg class="subcsribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-paper-airplane"></use>
+              </svg>
             </button>
           </form>
         </div>
@@ -484,12 +482,12 @@
             </div>
           </div>
 
-          <div class="modal-input-wrap">
-            <label for="comment" class="modal-label">Comment</label>
+          <div class="modal-comment-wrap">
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               class="modal-comment"
-              name="comment"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -500,6 +498,7 @@
               id="user-privacy"
               name="user-privacy"
               class="visually-hidden policy-checkbox"
+              value="true"
             />
             <label for="user-privacy" class="policy-label" value="true">
               <span class="checked-icon-block">
@@ -511,9 +510,8 @@
               <a href="" class="policy-link">Privacy Policy</a></label
             >
           </div>
-          <div class="modal-btn-wrap">
-            <button type="submit" class="form-send-btn">Send</button>
-          </div>
+
+          <button type="submit" class="form-send-btn">Send</button>
         </form>
       </div>
     </div>
